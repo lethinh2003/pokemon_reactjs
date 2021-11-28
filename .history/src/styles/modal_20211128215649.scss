@@ -1,0 +1,110 @@
+.modal-container {
+  position: fixed;
+  inset: 0px;
+  background-color: rgba(22, 21, 21, 0.664);
+}
+.modal-body {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  inset: 50% auto auto 50%;
+  border: 5px solid #1e76f9;
+  background: rgb(255, 255, 255);
+
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.modal-header {
+  border-bottom: 2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.modal-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
+.profile {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & img {
+    max-width: 150px;
+    width: 100%;
+    z-index: 1;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.modal-footer {
+  display: flex;
+  align-self: flex-end;
+}
+.modal-desc {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.contact-btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
+.fb {
+  background-color: #3c85f1;
+}
+.github {
+  background-color: rgb(90, 96, 104);
+}
+.close-btn {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+
+  font-size: 20px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  & button {
+    margin-top: 20px;
+  }
+}

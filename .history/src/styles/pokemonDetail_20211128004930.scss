@@ -1,0 +1,19 @@
+.pokemon-detail__container {
+  display: flex;
+
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.pokemon-detail__header {
+  background-color: red;
+  height: 50px;
+  width: 100%;
+}
+.pokemon-detail__body {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+}

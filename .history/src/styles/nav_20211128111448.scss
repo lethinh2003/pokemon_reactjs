@@ -1,0 +1,20 @@
+.navigation {
+  background-color: white;
+  height: 100px;
+  width: 500px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  & .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+}

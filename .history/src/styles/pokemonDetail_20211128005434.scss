@@ -1,0 +1,43 @@
+.pokemon-detail__container {
+  display: flex;
+
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.pokemon-detail__header {
+  background-color: red;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokemon-detail__body {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.pokemon-detail__footer {
+  background-color: yellow;
+  height: 100px;
+  width: 100%;
+}
+.detail-title {
+  color: black;
+  font-size: 30px;
+}
+.detail-profile {
+  width: 400px;
+  height: 400px;
+  background-color: #ccc;
+}
+.detail-properties {
+  width: 400px;
+  height: 400px;
+  background-color: #ccc;
+}
