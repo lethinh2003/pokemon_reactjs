@@ -1,2 +1,2 @@
-Pet Project about countdown time to New Year 2022.
+Pet Project about Pokemon API.
 Thanks for your visited.
